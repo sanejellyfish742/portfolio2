@@ -1,0 +1,28 @@
+#cs1300-gallery {
+  background-color: lightblue;
+}
+
+.gallery-item-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
+margin-left: 8%;
+margin-right: 8%;
+  text-align: center;
+.flex-container{
+  display: flex;
+
+
+  justify-content: center;
+}
+
+
+/* Responsive layout - makes a one column layout (100%) instead of a two-column layout (50%) */
+@media (max-width: 800px) {
+  .flex-item-right, .flex-item-left {
+    flex: 100%;
+  align-items: center;
+  justify-content: center;
+  }
+}
+}
+img {max-width:88%;
+}
