@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="bootstrap.css" /> 
+
+<meta charset="utf-8">
+<style>
+body {
+  background-image: url("assets/gcbbg.jpeg");
+  background-size: 100% auto;
+  font-family: Montserrat;
+}
+.container{
+        background-color: #aa3939;
+        color: #ffffff;
+
+		}
+		.footer{
+        background-color: #000000;
+        color: #000000;
+
+		}
+   .container-fluid{
+        background-color: #801515;
+				text-align: center;
+
+		}
+    @media (min-width: 992px) {
+	.container-fluid{
+		display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+    }
+	}
+    
+	.title {
+	    background-color: #801515;
+		width: 100%;
+        color: #FFFFFF;
+		flex: 0 0 100%; 
+		font-size: 40px;
+		text-decoration: none;
+		}
+
+	.nav-item a {
+		background-color: #FCD3D3;
+		}
+	.nav-item a.active {
+		background-color: #E98989;
+		}
+	.nav-item a:hover {
+    text-decoration: underline;
+		}   
+	.footer a:hover {
+    transform: scale(1.2);
+		}		
+	.row {
+	display: flex;
+		}
+	.column {
+		border-top: 5px solid #ffaaaa;
+		flex: 50%;
+		}
+	.navbar-nav a{
+        color: #000000;
+        padding: 15px 15px;
+		border: 1px solid black; 
+		text-align: center
+
+    }
+
+	
+	@media (max-width: 992px) {
+	.navbar .navbar-toggler:focus {
+		color: #ffffff;
+	}   
+	.column {
+		flex: 100%;
+	}
+	.container-fluid{
+        padding-bottom: 25px;
+
+		}
+  .navbar-nav a {
+
+    float: left;
+    display: inline-flex;
+padding: 15px 50% 15px 50%;
+		max-width:95%;    
+		justify-content: center
+
+
+  }
+}
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+  <div class="container-fluid">
+      <a class="title" href="index.html">GCB</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item px-3" >
+          <a class="nav-link active" style="width: 200px;" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" style="width: 200px;" href="#">About</a>
+        </li>
+       <li class="nav-item px-3">
+          <a class="nav-link" style="width: 200px;" href="#">Menu</a>
+        </li>
+        <li class="nav-item px-3">
+          <a class="nav-link" style="width: 200px;" href="#">Events</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div class="container d-flex flex-column bd-highlight mb-3">
+	<div class="row">
+    	<div class="p-2 flex-fill bd-highlight"><h1><p>We are the <b>GCB (Grad Center Bar)</b>,</h1>
+<p>		<h2>a members-only not-for-profit serving the greater Brown University community.</h2>
+</div>
+ 
+<div class="ms-auto column bd-highlight">
+        <img class="gallery-item" width="100%" src="./assets/gcbbg2.jpeg" alt="Second photo of inside of bar">
+</div>
+<div class="ms-auto column bd-highlight">
+<h3>To visit or become a member you must:</h3>
+
+    <ul><li>Be 21 years of age or older</li>
+
+    <li>Have a current (unexpired) Brown ID OR a current COVID Vaccine Card with at least 2 doses received.</li>
+
+    <li>Have a valid (unexpired & legible) ID for proof of age as required by the State of Rhode Island. 
+	<p>The actual document or card must be present, no copies will be accepted.
+
+        <ul>IDs we are allowed to accept:
+
+            <ul><li>U.S. Issued State ID 			</li>
+            <li>U.S. Driver’s License			</li>
+            <li>U.S. Military ID			</li>
+            <li>U.S. Tribal ID			</li>
+            <li>U.S. Passport Card			</li>
+            <li>International Passport 			</li>
+</ul>
+			</li>
+</ul>
+</ul>
+ </div>
+ </div>
+	<div class="row">
+
+<div class="p-2 column bd-highlight">
+
+<p>All who meet the above requirements are welcome to visit and apply for membership with the GCB. To be a member you must be part of the greater Brown University community or sponsored by a current member. If you don’t have a sponsor, come by and speak with our door staff and they will try to help accommodate. 
+
+ 
+
+<p>Brown graduate and medical student memberships are purchased by the Grad Student Council and Medical Student Senate respectively and are available for pick-up upon visiting the GCB AND meeting the ID and vaccine requirements above.
+
+ 
+
+<p>Membership for the year is $35 cash. We have an ATM should you need it. While memberships are cash only, our bar does accept cash or credit.
+
+ </div>
+<div class="p-2 column bd-highlight">
+
+<h3>NO REFUNDS WILL BE OFFERED IN THE EVENT OF:</h3>
+
+    <ul><li>Closure for covid reasons</li>
+
+    <li>We revoke your membership for:</li>
+
+        <ul><li>Being belligerently drunk</li>
+
+        <li>Stealing</li>
+
+        <li>Bringing in your own alcohol</li>
+
+        <li>Damaging property</li>
+
+        <li>Being a total jerk to the staff or other GCB members</li>
+</div>
+</div>
+    </div>    
+    <div class="footer d-flex justify-content-center">
+		<a href="#"><img class="gallery-item" src="./assets/ig.png" alt="Click to go to the bar's Instagram"></a>
+		<a href="#"><img class="gallery-item" src="./assets/map.png" alt="Click to see the location of the bar"></a>
+		<a href="#"><img class="gallery-item" src="./assets/phone.png" alt="Call the phone of the bar"></a></div>        
+	      <script src="bootstrap.min.js"></script>
+
+</body>
+</html>

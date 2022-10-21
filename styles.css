@@ -1,15 +1,17 @@
 #cs1300-gallery {
   background-color: lightblue;
-  margin-left: 5%;
-margin-right: 5%;
+margin-left: 3%;
+margin-right: 3%;
 }
 
 .gallery-item-container {
+  /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 margin-left: 8%;
 margin-right: 8%;
-  text-align: center;
 .flex-container{
   display: flex;
+
+
   justify-content: center;
 }
 
