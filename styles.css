@@ -1,7 +1,8 @@
 #cs1300-gallery {
   background-color: lightblue;
-margin-left: 3%;
-margin-right: 3%;
+border-left: 4vw solid lightblue;
+border-right: 4vw solid lightblue;
+
 }
 
 .flex-item{
