@@ -4,6 +4,9 @@ margin-left: 3%;
 margin-right: 3%;
 }
 
+.flex-item{
+   flex-basis:45%; 
+}
 .gallery-item-container {
   /* TODO add styles (hint: use flex!) https://www.w3schools.com/cssref/ */
 margin-left: 8%;

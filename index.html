@@ -8,6 +8,13 @@
     <!-- import javascript variables and functions -->
     <script src="app.js"></script>
     <!-- import CSS styles -->
+	<style>
+	
+	.flex-item{
+   border: double; 
+}
+		
+</style>
     <link rel="stylesheet" href="styles.css" /> 
     <link rel="stylesheet" href="bootstrap.css" /> 
   </head>
@@ -33,21 +40,42 @@
           <a class="nav-link" href="redesign.html">Redesign</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Coming Soon</a>
+          <a class="nav-link" href="development.html">Development</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="iterative.html">Iterative Design</a>
         </li>
       </ul>
     </div>
   </div>
 </nav>
-    <div class="d-flex flex-column justify-content-center align-items-center top-pane">
-        <img class="gallery-item"  src="./assets/single-interface2.png" style="width: 12rem; height: 20rem;" alt="example interface">
-	<a href="personas.html"><h1 class="text-dark display-2">Personas</h1></a>
-	<h2 class="text-secondary text-center flex-wrap h6">Created personas and a storyboard based on real users of an interface</h2>
+	<h1 class="text-primary text-left flex-wrap h4 ms-3">I am a senior at Brown University studying applied math and computer science. 
+	<br>During my time in the UI/UX course, I learned about optimal elements of both physical and online designs and produced several projects based on those studies.
 	
+	<p>Welcome to my design portfolio!</h2>
+    <div class="d-flex flex-wrap top-pane ms-3">
+		<div class="flex-item">
+<a href="personas.html">
+        <img class="gallery-item"  src="./assets/storyboard.png" style="width: 40rem; height: 20rem;" alt="example interface">
+	<h1 class="text-dark text-center display-5">Personas</h1></a>
+	<h2 class="text-secondary text-center flex-wrap h6">Created personas and a storyboard based on real users of an interface</h2>
+	</div>    
+	<div class="flex-item">
+<a href="redesign.html">
 	<img class="gallery-item"  src="./assets/newgcb.png" style="width: 40rem; height: 20rem;" alt="new redesigned page">
-	<a href="redesign.html"><h1 class="text-dark display-2">Redesign</h1></a>
+	<h1 class="text-dark  display-5">Redesign</h1></a>
 	<h2 class="text-secondary text-center flex-wrap h6">Added responsive elements to a pre-existing website</h2>
-</div>
+	</div>	<div class="flex-item">
+
+	<a href="development.html"><img class="gallery-item"  src="./assets/development.png" style="width: 40rem; height: 15rem;" alt="react application">
+	<h1 class="text-dark text-center display-5">Development</h1></a>
+	<h2 class="text-secondary text-center flex-wrap h6">Built sample application to filter, sort, and aggregate items using React states</h2>
+		</div>	<div class="flex-item">
+
+	<a href="iterative.html"><img class="gallery-item"  src="./assets/iterative.png" style="width: 90rem; height: 15rem;" alt="react application">
+	<h1 class="text-dark text-center display-5">Iterative Design</h1></a>
+	<h2 class="text-secondary text-center flex-wrap h6">Worked with a team to iteratively design a new site for a startup</h2>
+</div></div>
 
       <script src="bootstrap.min.js"></script>
   

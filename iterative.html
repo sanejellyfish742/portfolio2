@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    
+  
+    <title>Iterative Design</title>
+    <!-- import javascript variables and functions -->
+    <!-- import CSS styles -->
+    <link rel="stylesheet" href="styles.css" /> 
+	<style>
+	#cs1300-gallery {
+  background-color: LightGrey;
+margin-left: 3%;
+margin-right: 3%;
+}
+.row {
+	display: flex;
+		}
+	.column {
+		text-align: center;
+		justify-content: center;
+		flex: 50%;
+		}
+		.column > img {
+  height: 90%;
+  width: auto;
+}
+</style>
+    <link rel="stylesheet" href="bootstrap.css" /> 
+  </head>
+
+  <!-- page content goes into <body> -->
+  <body>
+  
+  <nav class="navbar navbar-expand-lg bg-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">My Portfolio</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="true" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="personas.html">Personas</a>
+        </li>
+       <li class="nav-item">
+          <a class="nav-link" href="redesign.html">Redesign</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="development.html">Development</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" aria-current="page" href="iterative.html">Iterative Design</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+    <div id="cs1300-gallery">
+      <h1>Iterative Design</h1>
+      <h5><p>For this project, I and a team of other students designed an interface to fulfill a startup's mission. </p></h5>
+
+      <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
+      <div class="gallery-item-container">
+	        <h1>Planning:</h1>
+			The rising startup <a href="https://www.ycombinator.com/companies/dimorder">DimOrder</a> brands itself as a "Toast for Southeast Asia." We liked the idea, so we wanted to help make an interface for the business. While the startup's mission was to provide a one-stop shop for restauranteurs to interact with both customers and suppliers, our group narrowed our approach to the point of sale system used by servers in the restaurant itself.
+        We felt that this app alone would give us enough freedom in design while not being forced to spread ourselves too thin. Furthermore, we designed the interface for a tablet, as it was a low-cost solution likely to be used in restaurants.
+			  <h1>Prototypes:</h1>
+			  Like in the <a href="redesign.html">Redesign</a> project, I made both lo-fi and hi-fi prototypes for the design. The lo-fi prototypes represented my original ideas before seeing the other group members' designs. 
+			 
+			 <br><div class="row">
+<div class="column">
+			 <img class="gallery-item" src="./assets/iterative3.png" alt="Screenshot of lo-fi prototype 3"></div>
+			 <div class="ms-auto column bd-highlight"><img class="gallery-item" src="./assets/iterative2.png" alt="Screenshot of lo-fi prototype 2"></div>
+			 <div class="ms-auto column bd-highlight"><img class="gallery-item" src="./assets/iterative1.png" alt="Screenshot of lo-fi prototype 1">
+			</div></div> 
+			 The hi-fi prototypes were done as a group. We decided on what screens and interactions our app would have and split it into sections that we individually "programmed" in Figma.
+			 <h1>Iteration:</h1>
+			We attended a studio where we presented our app to an industry expert as well as our peers to get feedback on our design. 
+			We also submitted our interactive Figma prototype to the site <a href="https://usertesting.com">usertesting.com</a> along with a list of tasks to simulate what it would be like to actually use the app.
+			
+			<br>With these critiques in mind, we made improvements to the prototype like adding more information to screens and ways to undo like delete and back.
+			  <h1>Final App:</h1>
+My initial contributions that were included in the final app were the list view that displays a table's status at a glance; and the dropdown menu to add an item to an order. The Figma prototype is below:
+<br>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNPyxR3Q18DtMLrtsSbJpu3%2FDimOrder-Iterative-Design-(Copy)%3Fnode-id%3D178%253A42%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D178%253A42" allowfullscreen></iframe>
+			
+<h1>Group Submission:</h1>
+<p>We submitted our design for peer critique as well as an email to the company explaining our mission. However, we did not elicit a response from the latter.
+			<p> For more information about project as a whole, click on the image below, which will lead to the portfolio piece our group submitted as a whole. Note that this will navigate out of the portfolio.
+<br>
+        <a href="https://hungrybison102.github.io/iterative-design/"><img class="gallery-item" src="./assets/hungrybison.png" alt="Screenshot of portfolio"></a>
+
+<h1>Conclusion:</h1>
+	In this project, I learned to combine ideas and produce a larger project with a group of other designers. We were able to take visions that each of us had for the app and polish it into a product.
+	I also understood the importance of user testing and the feedback loop in perfecting a design, since what the designers had in mind might not match what the users experience.
+      </div>
+
+    </div>
+      <script src="bootstrap.min.js"></script>
+  
+  </body>
+
+</html>
