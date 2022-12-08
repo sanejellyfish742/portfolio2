@@ -9,11 +9,14 @@
     <!-- import CSS styles -->
     <link rel="stylesheet" href="styles.css" /> 
 	<style>
+	
 	#cs1300-gallery {
   background-color: lightgreen;
 margin-left: 3%;
 margin-right: 3%;
 }
+
+
 .row {
 	display: flex;
 		}
@@ -22,10 +25,7 @@ margin-right: 3%;
 		justify-content: center;
 		flex: 50%;
 		}
-		.column > img {
-  height: 90%;
-  width: auto;
-}
+		
 </style>
     <link rel="stylesheet" href="bootstrap.css" /> 
   </head>
@@ -51,7 +51,10 @@ margin-right: 3%;
           <a class="nav-link" aria-current="page" href="redesign.html">Redesign</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled">Coming Soon</a>
+          <a class="nav-link" href="development.html">Development</a>
+        </li>
+		<li class="nav-item">
+          <a class="nav-link" href="iterative.html">Iterative Design</a>
         </li>
       </ul>
     </div>
@@ -59,7 +62,7 @@ margin-right: 3%;
 </nav>
     <div id="cs1300-gallery">
       <h1>Responsive Redesign</h1>
-      <p>For this project, I took the page of a website that had usability issues and added design elements that adapt across different screen sizes. </p>
+      <p>For this project, I took the page of a website that had usability issues and added responsive elements that adapt across different screen sizes, culminating in a final design. </p>
 
       <!-- TODO: PART I Add your own images and use CSS flex to make sure they work on different screen sizes -->
       <div class="gallery-item-container">
@@ -70,10 +73,10 @@ margin-right: 3%;
 			 <br>I was frustrated 
 			 by the layout of the website, as well as how little information the website itself offered.
 </p>
-			 <h2>Usability & Accessibility</h2>
+			 <h2>Usability & Accessibility Issues:</h2>
 			 I quantified some of the problems a user would encounter when trying to navigate the site.
 			 <br>
-			 			 <h3>Usability:</h3>
+			 			 <h3>Usability</h3>
 
 			 <ul>
 
@@ -83,8 +86,8 @@ margin-right: 3%;
 <li>Text size is constant, resulting in it being cut off on smaller screens</li>
 </ul>
 
-			 <h3>Accessibility:</h3>
-			 For accessibility problems, I ran the website through the WebAIM WAVE tool, which confirmed some of my instincts.
+			 <h3>Accessibility</h3>
+			 For accessibility problems, I ran the website through the WebAIM WAVE tool, which confirmed some of my experiences.
 <ul>
 <li>There was not enough contrast between the background and the text, even with the black boxes in the background of white text</li>
 <li>There were only three links in the header, and two of them pointed to the same page (home page)</li>
@@ -93,7 +96,7 @@ margin-right: 3%;
 
 </ul>
 			  <h1>Prototypes:</h1>
-			  First, I made three lo-fi prototypes of the responsive redesigned website, along with annotations of key layout designs.
+			  To address these issues, first, I made three lo-fi prototypes of the responsive redesigned website, along with annotations of key layout designs with usability and responsiveness in mind.
 			  <br>
 			
 			  <br>
@@ -108,37 +111,47 @@ margin-right: 3%;
 		<p>768x1024px Tablet
 		</div><div class="ms-auto column bd-highlight">
 
-		<img class="gallery-item" src="./assets/wf3.png" alt="Wireframe of redesign on computer">
+		<img class="gallery-item" width="50%" src="./assets/wf3.png" alt="Wireframe of redesign on computer">
 		<p> 3840x2160px Computer
 </div>
 </div>
         		      <h2>Visual Guide</h2>
 
-		I then made a visual design style guide of what elements would be present in my website. 
+		I then made a visual design style guide of what elements would be present in my website. Based on the colors of the original websitem, I chose the colors from a palette generator, <a href="https://paletton.com/#uid=1000u0kllllaFw0g0qFqFg0w0aF">Paletton</a>.
 		<br>Since the redesign was only of the front page, there would not be that many distinct elements.
-		
-		        <img class="gallery-item" src="./assets/vsg.png" alt="Visual design style guide of website">
-
+		<br>
+		<div class="ms-auto column bd-highlight">
+		        <img class="gallery-item" width="40%" src="./assets/vsg.png" alt="Visual design style guide of website">
+</div>
 		      <h2>High-fidelity (Figma)</h2>
-I then created high-fidelity mockups of the wireframes using Figma and added what specific html/css elements would be used.
+From there, I created high-fidelity mockups of the wireframes using Figma and added what specific html/css elements would be used.
 <br><br>
+<div class="row">
 <div class="ms-auto column bd-highlight">
-        <img class="gallery-item" src="./assets/pt1.png" alt="Prototype of phone redesign">
+        <img class="gallery-item" width="80%" src="./assets/pt1.png" alt="Prototype of phone redesign">
 		<p>375x667px Phone
 		</div><div class="ms-auto column bd-highlight">
 
-		<img class="gallery-item" src="./assets/pt2.png" alt="Prototype of redesign on tablet">
+		<img class="gallery-item" width="50%" src="./assets/pt2.png" alt="Prototype of redesign on tablet">
 		<p>768x1024px Tablet
 		</div><div class="ms-auto column bd-highlight">
 
-		<img class="gallery-item" src="./assets/pt3.png" alt="Prototype of redesign on computer">
+		<img class="gallery-item" width="50%" src="./assets/pt3.png" alt="Prototype of redesign on computer">
 		<p> 3840x2160px Computer</div>
-			  <h1>Final Redesign:</h1>
+	</div>	
+		<h1>Final Redesign:</h1>
 
-			<p> Click the image below to go the finished redesigned site. Try viewing with different screen sizes!
+			<p>After the high-fidelity mockups, I used Bootstrap navbar elements and flexbox to shape the site into the format I desired, which ended up being slightly modified from the mockup.
+			<br>I reused elements from the original page like images and text to conform to the theme of the original.
+			Click the image below to go the finished redesigned site. Try viewing with different screen sizes!
 
         <a href="redesigned-page.html"><img class="gallery-item" src="./assets/newgcb.png" alt="Screenshot of new design"></a>
 
+
+	<h1>Conclusion:</h1>
+		For this project, I was able to spot and remedy design flaws and incorporate responsive elements into a derivative design. I hope you agree that the redesign fixes the issues.
+		I also honed my skill in prototyping tools, Balsamiq and Figma, by building up my ideas from a basic level to a fully finished product.
+			  
       </div>
 
     </div>
